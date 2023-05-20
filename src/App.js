@@ -20,12 +20,14 @@ const PORTFOLIO_DATA = {
       image: "/assets/images/fp.jpg",
       judul: "Website Pembelian Diamond Mobile Legend",
       deskripsi: "Top Up Diamond Murah",
+      link:"https://rivanaldy.github.io/kopi-kuy/"
     },
     {
       image:  "/assets/images/fp.jpg",
       judul: "Website Portal Alumni Kampus",
       deskripsi:
         "Website yang berisi informasi alumni kampus dan informasi kegiatan",
+        link:"https://rivanaldy.github.io/kopi-kuy/"
     },
   ],
 };
@@ -108,6 +110,7 @@ const MyPortfolio = () => {
               />
               <h4>{item.judul}</h4>
               <p>{item.deskripsi}</p>
+              <button><a href={item.link} target="_blank" rel="noopener noreferrer">go somewhere</a></button>
             </div>
           ))}
         </div>
