@@ -73,7 +73,7 @@ const MyPortfolio = () => {
           
         }}
       >
-        <h3>Portfolio Saya</h3>
+        <h3 style={{textAlign:"center"}}>Portfolio Saya</h3>
         <div
           style={{
             display: "flex",
@@ -81,6 +81,8 @@ const MyPortfolio = () => {
             gap: "1rem",
             flexWrap: "wrap",
             justifyContent: "center",
+            
+            
           }}
         >
           {PORTFOLIO_DATA.portfolio.map((item, index) => (
