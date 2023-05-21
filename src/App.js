@@ -14,20 +14,27 @@ const PORTFOLIO_DATA = {
   pekerjaan: "Front-end Developer",
   photo_profile: "/assets/images/fp.jpg",
   tentang_saya:
-    "Halo.. Nama saya rivan, asal saya dari pwt, umur saya 20 tahun, saya suka mengembangkan web menggunakan Framework Javascript, dan juga Flutter, senang jika dapat bertemu di kesempatan mendatang~",
+    "Halo.. Nama saya rivan, asal saya dari pwt, umur saya 20 tahun, saya suka mengembangkan web menggunakan Framework Javascript. Senang jika dapat bertemu di kesempatan mendatang~",
   portfolio: [
     {
-      image: "/assets/images/fp.jpg",
+      image: "https://esportsku.com/wp-content/uploads/2020/07/mlbb.png",
       judul: "Website Pembelian Diamond Mobile Legend",
       deskripsi: "Top Up Diamond Murah",
-      link:"https://rivanaldy.github.io/kopi-kuy/"
+    
     },
     {
-      image:  "/assets/images/fp.jpg",
+      image:  "https://th.bing.com/th/id/OIP.90PPsXbSD6ueyObrRgV4hAHaHM?pid=ImgDet&rs=1",
       judul: "Website Portal Alumni Kampus",
       deskripsi:
         "Website yang berisi informasi alumni kampus dan informasi kegiatan",
-        link:"https://rivanaldy.github.io/kopi-kuy/"
+       
+    },
+    {
+      image:  "https://2.bp.blogspot.com/-6b8NiXRMNQU/V1ySY7A_jCI/AAAAAAAAAAk/1RHEhSfKzXg4QAUzr7cqGcSI9cxMMuUqwCLcB/s1600/Mu.png",
+      judul: "Website Manchester United FC",
+      deskripsi:
+        "Website yang berisi informasi tentang Manchester United FC",
+       
     },
   ],
 };
@@ -60,6 +67,7 @@ const MyPortfolio = () => {
           paddingTop: "2rem",
           paddingLeft: "4rem",
           paddingRight: "4rem",
+          
         }}
       >
         <h3>Tentang Saya</h3>
@@ -110,7 +118,7 @@ const MyPortfolio = () => {
               />
               <h4>{item.judul}</h4>
               <p>{item.deskripsi}</p>
-              <button><a href={item.link} target="_blank" rel="noopener noreferrer">go somewhere</a></button>
+             
             </div>
           ))}
         </div>
