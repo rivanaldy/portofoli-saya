@@ -11,7 +11,7 @@
 
 const PORTFOLIO_DATA = {
   nama_lengkap: "Rivanaldy Rahman",
-  pekerjaan: "Front-end Developer",
+  pekerjaan: "Pelajar",
   photo_profile: "/assets/images/fp.jpg",
   tentang_saya:
     "Halo.. Nama saya rivan, asal saya dari pwt, umur saya 20 tahun, saya suka mengembangkan web menggunakan Framework Javascript. Senang jika dapat bertemu di kesempatan mendatang~",
