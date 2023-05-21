@@ -49,7 +49,7 @@ const MyPortfolio = () => {
           justifyContent: "center",
           alignItems: "center",
           flexDirection: "column",
-          backgroundColor: "skyblue",
+          backgroundColor: "blueviolet",
         }}
       >
         <img
@@ -63,20 +63,21 @@ const MyPortfolio = () => {
       <div
         style={{
           height: "100vh",
-          backgroundColor: "whitesmoke",
+          backgroundColor: "skyblue",
           paddingTop: "2rem",
           paddingLeft: "4rem",
           paddingRight: "4rem",
           
+          
         }}
       >
-        <h3>Tentang Saya</h3>
-        <p style={{ textAlign: "justify" }}>{PORTFOLIO_DATA.tentang_saya}</p>
+        <h3 style={{textAlign:"center"}}>Tentang Saya</h3>
+        <p style={{ textAlign: "center" }}>{PORTFOLIO_DATA.tentang_saya}</p>
       </div>
       <div
         style={{
           minHeight: "100vh",
-          backgroundColor: "skyblue",
+          backgroundColor: "blueviolet",
           paddingTop: "2rem",
           paddingLeft: "4rem",
           paddingRight: "4rem",
@@ -123,7 +124,7 @@ const MyPortfolio = () => {
           ))}
         </div>
       </div>
-      <div style={{ display: "flex", justifyContent: "center", padding:'4rem' }}>
+      <div style={{ display: "flex", justifyContent: "center", padding:'4rem', backgroundColor:"skyblue" }}>
         build with ♥ by &nbsp;
         <a href="https://www.instagram.com/rivanr_7/">Rivanaldy Rahman</a>
       </div>
